@@ -1,0 +1,938 @@
+[graphql] operation | operation: SearchPatients | opId: 118
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.052525752 | operationType: query
+[pubsub] unsubscribe | trigger: ON_CASE_DATA_CHANGE
+[graphql] operation-responsetime | operation: onCaseEvent | duration: 87.068694843 | operationType: subscription
+[pubsub] unsubscribe | trigger: ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onDigitalConsultationEvent | duration: 87.066061018 | operationType: subscription
+[pubsub] unsubscribe | trigger: ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onDigitalConsultationEvent | duration: 87.067924051 | operationType: subscription
+[graphql] operation | operation: GetStatistics | opId: 119
+[graphql] operation | operation: GetExporterTemplates | opId: 120
+[graphql] operation | operation: onExportFinished | opId: 121
+[graphql] operation | operation: GetExporterObjects | opId: 122
+[pubsub] subscribe | trigger: ON_EXPORT_FINISHED
+[graphql] operation-responsetime | operation: GetExporterTemplates | duration: 0.750366427 | operationType: query
+[graphql] operation-responsetime | operation: GetExporterObjects | duration: 1.342834366 | operationType: query
+[graphql] operation-responsetime | operation: GetStatistics | duration: 1.369814347 | operationType: query
+[pubsub] unsubscribe | trigger: ON_EXPORT_FINISHED
+[graphql] operation-responsetime | operation: onExportFinished | duration: 3.594862628 | operationType: subscription
+[graphql] operation | operation: GetFormOptions | opId: 123
+[graphql] operation | operation: Institute | opId: 124
+[graphql] operation-responsetime | operation: GetFormOptions | duration: 0.086117641 | operationType: query
+[graphql] operation-responsetime | operation: Institute | duration: 0.145370534 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 125
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.044163988 | operationType: query
+[graphql] operation | operation: onPatientEvent | opId: 126
+[graphql] operation | operation: onMeChange | opId: 127
+[graphql] operation | operation: Institute | opId: 128
+[graphql] operation | operation: Patient | opId: 129
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[pubsub] subscribe | trigger: ON_USER_CHANGE,ON_ROLE_CHANGE
+[graphql] operation-responsetime | operation: Institute | duration: 0.136157022 | operationType: query
+[graphql] operation | operation: onPatientEvent | opId: 130
+[graphql] operation-responsetime | operation: Patient | duration: 0.324599659 | operationType: query
+[graphql] operation | operation: CaseOverview | opId: 131
+[graphql] operation | operation: Scores | opId: 132
+[graphql] operation | operation: Timeline | opId: 133
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: Timeline | duration: 0.223554408 | operationType: query
+[graphql] operation-responsetime | operation: Scores | duration: 0.500455188 | operationType: query
+[graphql] operation-responsetime | operation: CaseOverview | duration: 0.620273106 | operationType: query
+[graphql] operation | operation: onPatientEvent | opId: 134
+[graphql] operation | operation: DigitalConsultation | opId: 135
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: DigitalConsultation | duration: 2.126055731 | operationType: query
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 8.05156185 | operationType: subscription
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 6.637189896 | operationType: subscription
+[graphql] operation | operation: GetFormOptions | opId: 136
+[graphql] operation-responsetime | operation: GetFormOptions | duration: 0.072685494 | operationType: query
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 9.614773285 | operationType: subscription
+[pubsub] unsubscribe | trigger: ON_USER_CHANGE,ON_ROLE_CHANGE
+[graphql] operation-responsetime | operation: onMeChange | duration: 9.614538384 | operationType: subscription
+[graphql] operation | operation: onCaseEvent | opId: 137
+[graphql] operation | operation: DashboardCases | opId: 138
+[graphql] operation | operation: onDigitalConsultationEvent | opId: 139
+[graphql] operation | operation: DashboardDigitalConsultations | opId: 140
+[graphql] operation | operation: onDigitalConsultationEvent | opId: 141
+[graphql] operation | operation: DashboardDigitalConsultations | opId: 142
+[pubsub] subscribe | trigger: ON_CASE_DATA_CHANGE
+[pubsub] subscribe | trigger: ON_DIGITAL_CONSULTATION_CHANGE
+[pubsub] subscribe | trigger: ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation | operation: DashboardMeta | opId: 143
+[graphql] operation-responsetime | operation: DashboardMeta | duration: 0.106909975 | operationType: query
+[graphql] operation-responsetime | operation: DashboardCases | duration: 0.207103021 | operationType: query
+[graphql] operation-responsetime | operation: DashboardDigitalConsultations | duration: 0.567738392 | operationType: query
+[graphql] operation-responsetime | operation: DashboardDigitalConsultations | duration: 0.577082249 | operationType: query
+[pubsub] unsubscribe | trigger: ON_CASE_DATA_CHANGE
+[graphql] operation-responsetime | operation: onCaseEvent | duration: 1.036246691 | operationType: subscription
+[pubsub] unsubscribe | trigger: ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onDigitalConsultationEvent | duration: 1.0330507309999999 | operationType: subscription
+[pubsub] unsubscribe | trigger: ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onDigitalConsultationEvent | duration: 1.03313375 | operationType: subscription
+[graphql] operation | operation: onPatientEvent | opId: 144
+[graphql] operation | operation: onMeChange | opId: 145
+[graphql] operation | operation: Institute | opId: 146
+[graphql] operation | operation: Patient | opId: 147
+[pubsub] subscribe | trigger: ON_USER_CHANGE,ON_ROLE_CHANGE
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: Institute | duration: 0.107967637 | operationType: query
+[graphql] operation | operation: onPatientEvent | opId: 148
+[graphql] operation-responsetime | operation: Patient | duration: 0.155897477 | operationType: query
+[graphql] operation | operation: CaseOverview | opId: 149
+[graphql] operation | operation: Scores | opId: 150
+[graphql] operation | operation: Timeline | opId: 151
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: Scores | duration: 0.221227774 | operationType: query
+[graphql] operation-responsetime | operation: Timeline | duration: 0.222904508 | operationType: query
+[trigger|warn] ignored trigger with empty result | trigger: one | flowgraph: Client_Test_Caseflow
+[graphql] operation-responsetime | operation: CaseOverview | duration: 0.340163631 | operationType: query
+[request|info] GET | ip: \:\:ffff\:172.18.0.3 | url: /fonts/uni_sans/uni_sans_bold-webfont.woff | method: GET | xhr: false
+[graphql] operation | operation: onPatientEvent | opId: 152
+[graphql] operation | operation: Documentation | opId: 153
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: Documentation | duration: 0.282112847 | operationType: query
+[request|info] GET | ip: \:\:ffff\:172.18.0.3 | url: /api/v1/ping/user | method: GET | xhr: true
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 0.939492066 | operationType: subscription
+[graphql] operation | operation: onPatientEvent | opId: 154
+[graphql] operation | operation: DigitalConsultation | opId: 155
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[request|info] GET | ip: \:\:ffff\:172.18.0.3 | url: / | method: GET | xhr: false
+[graphql] operation-responsetime | operation: DigitalConsultation | duration: 0.308307866 | operationType: query
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 1.971935298 | operationType: subscription
+[graphql] operation | operation: onPatientEvent | opId: 156
+[graphql] operation | operation: DigitalConsultation | opId: 157
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: DigitalConsultation | duration: 0.262909863 | operationType: query
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 5.431654509 | operationType: subscription
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 1.177082169 | operationType: subscription
+[graphql] operation | operation: GetFormOptions | opId: 158
+[graphql] operation | operation: GetFormOptionsById | opId: 159
+[graphql] operation-responsetime | operation: GetFormOptions | duration: 0.037511101 | operationType: query
+[graphql] operation-responsetime | operation: GetFormOptionsById | duration: 0.042929259 | operationType: query
+[graphql] operation | operation: GetFormOptions | opId: 160
+[graphql] operation-responsetime | operation: GetFormOptions | duration: 0.044727289 | operationType: query
+[graphql] operation | operation: updatePatient | opId: 161
+[pubsub] publish | trigger: ON_PATIENT_CHANGE
+[graphql] operation-responsetime | operation: updatePatient | duration: 0.052046554 | operationType: mutation
+[graphql] operation | operation: Patient | opId: 162
+[graphql] operation-responsetime | operation: Patient | duration: 0.054857501 | operationType: query
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 10.423084662 | operationType: subscription
+[pubsub] unsubscribe | trigger: ON_USER_CHANGE,ON_ROLE_CHANGE
+[graphql] operation-responsetime | operation: onMeChange | duration: 10.422943227 | operationType: subscription
+[graphql] operation | operation: onCaseEvent | opId: 163
+[graphql] operation | operation: DashboardCases | opId: 164
+[graphql] operation | operation: onDigitalConsultationEvent | opId: 165
+[graphql] operation | operation: DashboardDigitalConsultations | opId: 166
+[graphql] operation | operation: onDigitalConsultationEvent | opId: 167
+[graphql] operation | operation: DashboardDigitalConsultations | opId: 168
+[graphql] operation | operation: DashboardMeta | opId: 169
+[pubsub] subscribe | trigger: ON_CASE_DATA_CHANGE
+[pubsub] subscribe | trigger: ON_DIGITAL_CONSULTATION_CHANGE
+[pubsub] subscribe | trigger: ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: DashboardMeta | duration: 0.143665418 | operationType: query
+[graphql] operation-responsetime | operation: DashboardCases | duration: 0.2248648 | operationType: query
+[graphql] operation-responsetime | operation: DashboardDigitalConsultations | duration: 0.510050492 | operationType: query
+[graphql] operation-responsetime | operation: DashboardDigitalConsultations | duration: 0.527707827 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 170
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.046129393 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 171
+[graphql] operation | operation: SearchCases | opId: 172
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.041398341 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.044204069 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 173
+[graphql] operation | operation: SearchCases | opId: 174
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.038268538 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.039583376 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 175
+[graphql] operation | operation: SearchCases | opId: 176
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.038648041 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.041031513 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 177
+[graphql] operation | operation: SearchCases | opId: 178
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.041881904 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.046216307 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 179
+[graphql] operation | operation: SearchCases | opId: 180
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.035697953 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.039117633 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 181
+[graphql] operation | operation: SearchCases | opId: 182
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.037478158 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.038476466 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 183
+[graphql] operation | operation: SearchCases | opId: 184
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.039007617 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.042528364 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 185
+[graphql] operation | operation: SearchCases | opId: 186
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.033997026 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.034773593 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 187
+[graphql] operation | operation: SearchCases | opId: 188
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.036966606 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.036600106 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 189
+[graphql] operation | operation: SearchCases | opId: 190
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.033197964 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.036202659 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 191
+[graphql] operation | operation: SearchCases | opId: 192
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.0406443 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.044967368 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 193
+[graphql] operation | operation: SearchCases | opId: 194
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.03848219 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.044041476 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 195
+[graphql] operation | operation: SearchCases | opId: 196
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.034746158 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.037288524 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 197
+[graphql] operation | operation: SearchCases | opId: 198
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.042322874 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.039005181 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 199
+[graphql] operation | operation: SearchCases | opId: 200
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.037386043 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.040039326 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 201
+[graphql] operation | operation: SearchCases | opId: 202
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.040695318 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.043317076 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 203
+[graphql] operation | operation: SearchCases | opId: 204
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.034000389 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.033481295 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 205
+[graphql] operation | operation: SearchCases | opId: 206
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.037119926 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.037782357 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 207
+[graphql] operation | operation: SearchCases | opId: 208
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.035190651 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.037657621 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 209
+[graphql] operation | operation: SearchCases | opId: 210
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.03931548 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.041749263 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 211
+[graphql] operation | operation: SearchCases | opId: 212
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.034378522 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.036147036 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 213
+[graphql] operation | operation: SearchCases | opId: 214
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.03861308 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.03862046 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 215
+[graphql] operation | operation: SearchCases | opId: 216
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.037137438 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.039858831 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 217
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.038212143 | operationType: query
+[request|info] GET | ip: \:\:ffff\:172.18.0.3 | url: /api/v1/about | method: GET | xhr: true
+[pubsub] unsubscribe | trigger: ON_CASE_DATA_CHANGE
+[graphql] operation-responsetime | operation: onCaseEvent | duration: 27.30438015 | operationType: subscription
+[pubsub] unsubscribe | trigger: ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onDigitalConsultationEvent | duration: 27.306638727 | operationType: subscription
+[pubsub] unsubscribe | trigger: ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onDigitalConsultationEvent | duration: 27.303113068 | operationType: subscription
+[graphql] operation | operation: UserList | opId: 218
+[graphql] operation-responsetime | operation: UserList | duration: 0.115506339 | operationType: query
+[graphql] operation | operation: getRoles | opId: 219
+[graphql] operation | operation: getPermissionsGroups | opId: 220
+[graphql] operation-responsetime | operation: getPermissionsGroups | duration: 0.047484217 | operationType: query
+[graphql] operation-responsetime | operation: getRoles | duration: 0.148284739 | operationType: query
+[graphql] operation | operation: Devices | opId: 221
+[graphql] operation-responsetime | operation: Devices | duration: 0.140355973 | operationType: query
+[graphql] operation | operation: ConnectorState | opId: 222
+[graphql] operation-responsetime | operation: ConnectorState | duration: 0.033103777 | operationType: query
+[graphql] operation | operation: stopListeningForConnectorClients | opId: 223
+[graphql] operation | operation: Devices | opId: 224
+[graphql] operation-responsetime | operation: Devices | duration: 0.046015197 | operationType: query
+[graphql] operation-responsetime | operation: stopListeningForConnectorClients | duration: 0.0494812 | operationType: mutation
+[graphql] operation | operation: UserList | opId: 225
+[graphql] operation-responsetime | operation: UserList | duration: 0.046203322 | operationType: query
+[graphql] operation | operation: User | opId: 226
+[graphql] operation | operation: getRoles | opId: 227
+[graphql] operation-responsetime | operation: User | duration: 0.087595817 | operationType: query
+[graphql] operation-responsetime | operation: getRoles | duration: 0.09240796 | operationType: query
+[graphql] operation | operation: getRoles | opId: 228
+[graphql] operation | operation: getPermissionsGroups | opId: 229
+[graphql] operation-responsetime | operation: getPermissionsGroups | duration: 0.045666972 | operationType: query
+[graphql] operation-responsetime | operation: getRoles | duration: 0.10206533 | operationType: query
+[graphql] operation | operation: GetFormOptions | opId: 230
+[graphql] operation | operation: getRoles | opId: 231
+[graphql] operation | operation: getPermissionsGroups | opId: 232
+[graphql] operation-responsetime | operation: getPermissionsGroups | duration: 0.040937753 | operationType: query
+[graphql] operation-responsetime | operation: GetFormOptions | duration: 0.049780612 | operationType: query
+[graphql] operation-responsetime | operation: getRoles | duration: 0.1566679 | operationType: query
+[graphql] operation | operation: getRoles | opId: 233
+[graphql] operation | operation: getPermissionsGroups | opId: 234
+[graphql] operation-responsetime | operation: getPermissionsGroups | duration: 0.123301005 | operationType: query
+[graphql] operation-responsetime | operation: getRoles | duration: 0.163833908 | operationType: query
+[graphql] operation | operation: UserList | opId: 235
+[graphql] operation-responsetime | operation: UserList | duration: 0.090276815 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 236
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.042295859 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 237
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.04858886 | operationType: query
+[request|info] GET | ip: \:\:ffff\:172.18.0.3 | url: /api/v1/ping/user | method: GET | xhr: true
+[request|info] GET | ip: \:\:ffff\:172.18.0.3 | url: / | method: GET | xhr: false
+[graphql] operation | operation: onPatientEvent | opId: 238
+[graphql] operation | operation: onMeChange | opId: 239
+[graphql] operation | operation: Institute | opId: 240
+[graphql] operation | operation: Patient | opId: 241
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[pubsub] subscribe | trigger: ON_USER_CHANGE,ON_ROLE_CHANGE
+[graphql] operation-responsetime | operation: Institute | duration: 0.147797583 | operationType: query
+[graphql] operation | operation: onPatientEvent | opId: 242
+[graphql] operation | operation: CaseOverview | opId: 243
+[graphql] operation | operation: Scores | opId: 244
+[graphql] operation-responsetime | operation: Patient | duration: 0.227775284 | operationType: query
+[graphql] operation | operation: Timeline | opId: 245
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: Timeline | duration: 0.791169802 | operationType: query
+[graphql] operation-responsetime | operation: Scores | duration: 0.84927949 | operationType: query
+[graphql] operation-responsetime | operation: CaseOverview | duration: 0.879117405 | operationType: query
+[graphql] operation | operation: onPatientEvent | opId: 246
+[graphql] operation | operation: DigitalConsultation | opId: 247
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: DigitalConsultation | duration: 1.985255703 | operationType: query
+[graphql] operation | operation: createCase | opId: 248
+[pubsub] publish | trigger: ON_CASE_DATA_CHANGE
+[pubsub] publish | trigger: ON_CASE_DEPARTMENT_CHANGE
+[pubsub] publish | trigger: ON_CASE_PROGRESS_CHANGE
+[case-progress-scheduler] queue size | size: 2539
+[case-progress-scheduler] ms until next timeout | timeout: 117150384
+[graphql] operation-responsetime | operation: createCase | duration: 0.234085999 | operationType: mutation
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 7.209253231 | operationType: subscription
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 5.639729638 | operationType: subscription
+[graphql] operation | operation: onPatientEvent | opId: 249
+[graphql] operation | operation: CaseOverview | opId: 250
+[graphql] operation | operation: Scores | opId: 251
+[graphql] operation | operation: Timeline | opId: 252
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[trigger|warn] ignored trigger with empty result | trigger: one | flowgraph: Client_Test_Caseflow
+[graphql] operation | operation: Patient | opId: 253
+[graphql] operation-responsetime | operation: Scores | duration: 0.106575833 | operationType: query
+[graphql] operation-responsetime | operation: Timeline | duration: 0.109756314 | operationType: query
+[graphql] operation-responsetime | operation: CaseOverview | duration: 0.130030852 | operationType: query
+[graphql] operation-responsetime | operation: Patient | duration: 0.058628697 | operationType: query
+[graphql] operation | operation: createDocumentation | opId: 254
+[pubsub] publish | trigger: ON_CASE_DATA_CHANGE
+[pubsub] publish | trigger: ON_CASE_PROGRESS_CHANGE
+[case-progress-scheduler] queue size | size: 2539
+[case-progress-scheduler] ms until next timeout | timeout: 117148839
+[graphql] operation | operation: Patient | opId: 255
+[graphql] operation | operation: Timeline | opId: 256
+[graphql] operation-responsetime | operation: createDocumentation | duration: 0.176981475 | operationType: mutation
+[graphql] operation | operation: onPatientEvent | opId: 257
+[graphql] operation | operation: Documentation | opId: 258
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: Patient | duration: 0.392234878 | operationType: query
+[graphql] operation-responsetime | operation: Timeline | duration: 0.381207122 | operationType: query
+[graphql] operation-responsetime | operation: Documentation | duration: 0.273698743 | operationType: query
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 0.921173806 | operationType: subscription
+[graphql] operation | operation: onPatientEvent | opId: 259
+[graphql] operation | operation: Documentation | opId: 260
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: Documentation | duration: 0.252003516 | operationType: query
+[graphql] operation | operation: updateDocumentation | opId: 261
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.128263794 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 262
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.130541927 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 263
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.137005353 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 264
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.133053272 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 265
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.127107535 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 266
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.140087449 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 267
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.1445847 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 268
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.139749075 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 269
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.136033281 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 270
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.138872672 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 271
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.139578086 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 272
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.143258377 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 273
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.149054112 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 274
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.138682927 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 275
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.133193117 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 276
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.159220955 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 277
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.143745519 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 278
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.142689683 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 279
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.134719652 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 280
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.142119934 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 281
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.186219304 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 282
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.135104785 | operationType: mutation
+[graphql] operation | operation: updateDocumentation | opId: 283
+[graphql] operation-responsetime | operation: updateDocumentation | duration: 0.152168851 | operationType: mutation
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 38.157733143 | operationType: subscription
+[graphql] operation | operation: createDigitalConsultation | opId: 284
+[pubsub] publish | trigger: ON_DIGITAL_CONSULTATION_CHANGE
+[pubsub] publish | trigger: ON_CASE_DATA_CHANGE
+[pubsub] publish | trigger: ON_CASE_PROGRESS_CHANGE
+[case-progress-scheduler] queue size | size: 2539
+[case-progress-scheduler] ms until next timeout | timeout: 117106085
+[graphql] operation | operation: onPatientEvent | opId: 285
+[graphql] operation | operation: DigitalConsultation | opId: 286
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: createDigitalConsultation | duration: 0.34083233 | operationType: mutation
+[graphql] operation | operation: Timeline | opId: 287
+[graphql] operation | operation: Patient | opId: 288
+[graphql] operation-responsetime | operation: DigitalConsultation | duration: 0.20425326 | operationType: query
+[graphql] operation-responsetime | operation: Patient | duration: 0.172751825 | operationType: query
+[graphql] operation-responsetime | operation: Timeline | duration: 0.223291405 | operationType: query
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 46.7283836 | operationType: subscription
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 2.617574409 | operationType: subscription
+[graphql] operation | operation: GetFormOptions | opId: 289
+[graphql] operation-responsetime | operation: GetFormOptions | duration: 0.074070096 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 290
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.041307098 | operationType: query
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 56.849588238 | operationType: subscription
+[pubsub] unsubscribe | trigger: ON_USER_CHANGE,ON_ROLE_CHANGE
+[graphql] operation-responsetime | operation: onMeChange | duration: 56.849443525 | operationType: subscription
+[graphql] operation | operation: onCaseEvent | opId: 291
+[graphql] operation | operation: DashboardCases | opId: 292
+[graphql] operation | operation: onDigitalConsultationEvent | opId: 293
+[graphql] operation | operation: DashboardDigitalConsultations | opId: 294
+[graphql] operation | operation: onDigitalConsultationEvent | opId: 295
+[graphql] operation | operation: DashboardDigitalConsultations | opId: 296
+[graphql] operation | operation: DashboardMeta | opId: 297
+[pubsub] subscribe | trigger: ON_CASE_DATA_CHANGE
+[pubsub] subscribe | trigger: ON_DIGITAL_CONSULTATION_CHANGE
+[pubsub] subscribe | trigger: ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: DashboardMeta | duration: 0.156736053 | operationType: query
+[graphql] operation-responsetime | operation: DashboardCases | duration: 0.301450932 | operationType: query
+[graphql] operation-responsetime | operation: DashboardDigitalConsultations | duration: 0.655804082 | operationType: query
+[graphql] operation-responsetime | operation: DashboardDigitalConsultations | duration: 0.66521876 | operationType: query
+[pubsub] unsubscribe | trigger: ON_CASE_DATA_CHANGE
+[graphql] operation-responsetime | operation: onCaseEvent | duration: 1.779429242 | operationType: subscription
+[pubsub] unsubscribe | trigger: ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onDigitalConsultationEvent | duration: 1.779849997 | operationType: subscription
+[pubsub] unsubscribe | trigger: ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onDigitalConsultationEvent | duration: 1.778350799 | operationType: subscription
+[graphql] operation | operation: onPatientEvent | opId: 298
+[graphql] operation | operation: onMeChange | opId: 299
+[graphql] operation | operation: Institute | opId: 300
+[graphql] operation | operation: Patient | opId: 301
+[pubsub] subscribe | trigger: ON_USER_CHANGE,ON_ROLE_CHANGE
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: Institute | duration: 0.147055601 | operationType: query
+[graphql] operation | operation: onPatientEvent | opId: 302
+[graphql] operation-responsetime | operation: Patient | duration: 0.196900966 | operationType: query
+[graphql] operation | operation: Timeline | opId: 303
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation | operation: onPatientEvent | opId: 304
+[graphql] operation | operation: DigitalConsultation | opId: 305
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: Timeline | duration: 0.073078882 | operationType: query
+[graphql] operation-responsetime | operation: DigitalConsultation | duration: 0.067444276 | operationType: query
+[request|info] GET | ip: \:\:ffff\:172.18.0.3 | url: /api/v1/ping/user | method: GET | xhr: true
+[request|info] GET | ip: \:\:ffff\:172.18.0.3 | url: / | method: GET | xhr: false
+[graphql] operation | operation: SearchPatients | opId: 306
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.041927212 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 307
+[graphql] operation | operation: SearchCases | opId: 308
+[graphql] operation | operation: SearchPatients | opId: 309
+[graphql] operation | operation: SearchCases | opId: 310
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.043353667 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.047052535 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.054018557 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.053272289 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 311
+[graphql] operation | operation: SearchCases | opId: 312
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.037720651 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.038830213 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 313
+[graphql] operation | operation: SearchCases | opId: 314
+[graphql] operation | operation: SearchPatients | opId: 315
+[graphql] operation | operation: SearchCases | opId: 316
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.038056507 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.035129383 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.03733394 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.039287004 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 317
+[graphql] operation | operation: SearchCases | opId: 318
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.030772357 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.036563636 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 319
+[graphql] operation | operation: SearchCases | opId: 320
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.034018705 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.034549228 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 321
+[graphql] operation | operation: SearchCases | opId: 322
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.032130471 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.032709664 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 323
+[graphql] operation | operation: SearchCases | opId: 324
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.033852296 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.032934807 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 325
+[graphql] operation | operation: SearchCases | opId: 326
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.035430544 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.036015333 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 327
+[graphql] operation | operation: SearchCases | opId: 328
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.034128732 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.034205523 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 329
+[graphql] operation | operation: SearchCases | opId: 330
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.032767539 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.033892991 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 331
+[graphql] operation | operation: SearchCases | opId: 332
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.031130882 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.032174403 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 333
+[graphql] operation | operation: SearchCases | opId: 334
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.041938445 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.042350437 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 335
+[graphql] operation | operation: SearchCases | opId: 336
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.036283899 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.033574724 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 337
+[graphql] operation | operation: SearchCases | opId: 338
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.035319654 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.033729843 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 339
+[graphql] operation | operation: SearchCases | opId: 340
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.031273638 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.03200838 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 341
+[graphql] operation | operation: SearchCases | opId: 342
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.031906836 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.033722603 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 343
+[graphql] operation | operation: SearchCases | opId: 344
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.03634086 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.036547424 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 345
+[graphql] operation | operation: SearchCases | opId: 346
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.034837455 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.031803259 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 347
+[graphql] operation | operation: SearchCases | opId: 348
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.035193194 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.034358406 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 349
+[graphql] operation | operation: SearchCases | opId: 350
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.030866806 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.032884272 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 351
+[graphql] operation | operation: SearchCases | opId: 352
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.034026066 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.034449826 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 353
+[graphql] operation | operation: SearchCases | opId: 354
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.036520233 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.037481923 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 355
+[graphql] operation | operation: SearchCases | opId: 356
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.032805961 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.080622054 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 357
+[graphql] operation | operation: SearchCases | opId: 358
+[graphql] operation | operation: SearchPatients | opId: 359
+[graphql] operation | operation: SearchCases | opId: 360
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.283102407 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.28113461 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.037290737 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.04009354 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 361
+[graphql] operation | operation: SearchCases | opId: 362
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.035995543 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.036836068 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 363
+[graphql] operation | operation: SearchCases | opId: 364
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.041546733 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.038565498 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 365
+[graphql] operation | operation: SearchCases | opId: 366
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.037912875 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.046459428 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 367
+[graphql] operation | operation: SearchCases | opId: 368
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.039161455 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.041480184 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 369
+[graphql] operation | operation: SearchCases | opId: 370
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.032234568 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.035342348 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 371
+[graphql] operation | operation: SearchCases | opId: 372
+[graphql] operation | operation: SearchPatients | opId: 373
+[graphql] operation | operation: SearchCases | opId: 374
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.03472376 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.037999886 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.035062816 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.038069699 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 375
+[graphql] operation | operation: SearchCases | opId: 376
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.039340482 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.042592979 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 377
+[graphql] operation | operation: SearchCases | opId: 378
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.03860684 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.036712692 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 379
+[graphql] operation | operation: SearchCases | opId: 380
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.035599475 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.037525146 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 381
+[graphql] operation | operation: SearchCases | opId: 382
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.035411332 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.040903317 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 383
+[graphql] operation | operation: SearchCases | opId: 384
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.036899009 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.03748964 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 385
+[graphql] operation | operation: SearchCases | opId: 386
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.038618357 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.039970424 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 387
+[graphql] operation | operation: SearchCases | opId: 388
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.041945463 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.045470407 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 389
+[graphql] operation | operation: SearchCases | opId: 390
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.034021485 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 391
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.041533967 | operationType: query
+[graphql] operation | operation: SearchCases | opId: 392
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.03231904 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.033068642 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 393
+[graphql] operation | operation: SearchCases | opId: 394
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.036378087 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.034828761 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 395
+[graphql] operation | operation: SearchCases | opId: 396
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.034977681 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.037066567 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 397
+[graphql] operation | operation: SearchCases | opId: 398
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.032059396 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.032597279 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 399
+[graphql] operation | operation: SearchCases | opId: 400
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.04085442 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.04181866 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 401
+[graphql] operation | operation: SearchCases | opId: 402
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.039809902 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.039249773 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 403
+[graphql] operation | operation: SearchCases | opId: 404
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.035587418 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.035811475 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 405
+[graphql] operation | operation: SearchCases | opId: 406
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.033728119 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.034981047 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 407
+[graphql] operation | operation: SearchCases | opId: 408
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.038386387 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.041843605 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 409
+[graphql] operation | operation: SearchCases | opId: 410
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.038931034 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.039214132 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 411
+[graphql] operation | operation: SearchCases | opId: 412
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.030989906 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.03428982 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 413
+[graphql] operation | operation: SearchCases | opId: 414
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.043566975 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.040352342 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 415
+[graphql] operation | operation: SearchCases | opId: 416
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.033551481 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.03714497 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 417
+[graphql] operation | operation: SearchCases | opId: 418
+[graphql] operation | operation: SearchPatients | opId: 419
+[graphql] operation | operation: SearchCases | opId: 420
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.030491905 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.028725192 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.033444132 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.033989992 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 421
+[graphql] operation | operation: SearchCases | opId: 422
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.03432177 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.035856634 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 423
+[graphql] operation | operation: SearchCases | opId: 424
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.036227007 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.036417713 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 425
+[graphql] operation | operation: SearchCases | opId: 426
+[graphql] operation | operation: SearchPatients | opId: 427
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.032615092 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.031133659 | operationType: query
+[graphql] operation | operation: SearchCases | opId: 428
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.032993238 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.032449168 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 429
+[graphql] operation | operation: SearchCases | opId: 430
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.034337298 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.035381416 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 431
+[graphql] operation | operation: SearchCases | opId: 432
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.031565231 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.033797775 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 433
+[graphql] operation | operation: SearchCases | opId: 434
+[graphql] operation | operation: SearchPatients | opId: 435
+[graphql] operation | operation: SearchCases | opId: 436
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.032562407 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.029729062 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.032315785 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.032786455 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 437
+[graphql] operation | operation: SearchCases | opId: 438
+[graphql] operation | operation: SearchPatients | opId: 439
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.032970869 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.032727353 | operationType: query
+[graphql] operation | operation: SearchCases | opId: 440
+[graphql] operation | operation: SearchPatients | opId: 441
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.032439551 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.030436602 | operationType: query
+[graphql] operation | operation: SearchCases | opId: 442
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.0320137 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.03303146 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 443
+[graphql] operation | operation: SearchCases | opId: 444
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.036657178 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 445
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.04715527 | operationType: query
+[graphql] operation | operation: SearchCases | opId: 446
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.037760965 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.038764821 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 447
+[graphql] operation | operation: SearchCases | opId: 448
+[graphql] operation | operation: SearchPatients | opId: 449
+[graphql] operation | operation: SearchCases | opId: 450
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.039032571 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.036652332 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.0365347 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.036839411 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 451
+[graphql] operation | operation: SearchCases | opId: 452
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.035711143 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.035679044 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 453
+[graphql] operation | operation: SearchCases | opId: 454
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.037354464 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.037523427 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 455
+[graphql] operation | operation: SearchCases | opId: 456
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.032723999 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.03485224 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 457
+[graphql] operation | operation: SearchCases | opId: 458
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.049473821 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.052445332 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 459
+[graphql] operation | operation: SearchCases | opId: 460
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.033210503 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.035723258 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 461
+[graphql] operation | operation: SearchCases | opId: 462
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.031133938 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.031814925 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 463
+[graphql] operation | operation: SearchCases | opId: 464
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.039523404 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.039377611 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 465
+[graphql] operation | operation: SearchCases | opId: 466
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.034309765 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.036574995 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 467
+[graphql] operation | operation: SearchCases | opId: 468
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.034794671 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.038691172 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 469
+[graphql] operation | operation: SearchCases | opId: 470
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.038041282 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.03651799 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 471
+[graphql] operation | operation: SearchCases | opId: 472
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.032807064 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.035433355 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 473
+[graphql] operation | operation: SearchCases | opId: 474
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.035856411 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.036544545 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 475
+[graphql] operation | operation: SearchCases | opId: 476
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.036895995 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.039227803 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 477
+[graphql] operation | operation: SearchCases | opId: 478
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.034599365 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.035342165 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 479
+[graphql] operation | operation: SearchCases | opId: 480
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.033607542 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.033383635 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 481
+[graphql] operation | operation: SearchCases | opId: 482
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.030418564 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.032482075 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 483
+[graphql] operation | operation: SearchCases | opId: 484
+[graphql] operation | operation: SearchPatients | opId: 485
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.034756777 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.036692933 | operationType: query
+[graphql] operation | operation: SearchCases | opId: 486
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.031612813 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.033089803 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 487
+[graphql] operation | operation: SearchCases | opId: 488
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.031377804 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.031930287 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 489
+[graphql] operation | operation: SearchCases | opId: 490
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.032559891 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.035415278 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 491
+[graphql] operation | operation: SearchCases | opId: 492
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.031468825 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.03771078 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 493
+[graphql] operation | operation: SearchCases | opId: 494
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.031651247 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.031514772 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 495
+[graphql] operation | operation: SearchCases | opId: 496
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.033384631 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.034083939 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 497
+[graphql] operation | operation: SearchCases | opId: 498
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.03590222 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.037326582 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 499
+[graphql] operation | operation: SearchCases | opId: 500
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.033741856 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.03722489 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 501
+[graphql] operation | operation: SearchCases | opId: 502
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.037218558 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.036969811 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 503
+[graphql] operation | operation: SearchCases | opId: 504
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.034564314 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.037474189 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 505
+[graphql] operation | operation: SearchCases | opId: 506
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.037931523 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.040562164 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 507
+[graphql] operation | operation: SearchCases | opId: 508
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.031974389 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.032712481 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 509
+[graphql] operation | operation: SearchCases | opId: 510
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.033750857 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.036043307 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 511
+[graphql] operation | operation: SearchCases | opId: 512
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.032270107 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.035253824 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 513
+[graphql] operation | operation: SearchCases | opId: 514
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.03169041 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.03420188 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 515
+[graphql] operation | operation: SearchCases | opId: 516
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.034913064 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.035920252 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 517
+[graphql] operation | operation: SearchCases | opId: 518
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.031129166 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.032768853 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 519
+[graphql] operation | operation: SearchCases | opId: 520
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.037587194 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.039765495 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 521
+[graphql] operation | operation: SearchCases | opId: 522
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.035496884 | operationType: query
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.046469328 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 523
+[graphql] operation | operation: SearchCases | opId: 524
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.036570792 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.039366704 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 525
+[graphql] operation | operation: SearchCases | opId: 526
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.031070764 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.03369323 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 527
+[graphql] operation | operation: SearchCases | opId: 528
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.032380029 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.034289617 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 529
+[graphql] operation | operation: SearchCases | opId: 530
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.044320967 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.037911108 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 531
+[graphql] operation | operation: SearchCases | opId: 532
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.031322694 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.032011744 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 533
+[graphql] operation | operation: SearchCases | opId: 534
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.040475387 | operationType: query
+[graphql] operation-responsetime | operation: SearchCases | duration: 0.037793875 | operationType: query
+[graphql] operation | operation: SearchPatients | opId: 535
+[graphql] operation-responsetime | operation: SearchPatients | duration: 0.040259431 | operationType: query
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 28.945745505 | operationType: subscription
+[pubsub] unsubscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[graphql] operation-responsetime | operation: onPatientEvent | duration: 28.878291284 | operationType: subscription
+[graphql] operation | operation: Patient | opId: 536
+[graphql] operation | operation: onPatientEvent | opId: 537
+[graphql] operation | operation: CaseOverview | opId: 538
+[graphql] operation | operation: Scores | opId: 539
+[graphql] operation | operation: Timeline | opId: 540
+[graphql] operation-responsetime | operation: Patient | duration: 0.128781623 | operationType: query
+[pubsub] subscribe | trigger: ON_PATIENT_CHANGE,ON_NOTE_CHANGE,ON_CASE_DATA_CHANGE,ON_DIGITAL_CONSULTATION_CHANGE
+[trigger|warn] ignored trigger with empty result | trigger: one | flowgraph: Client_Test_Caseflow
+[graphql] operation-responsetime | operation: Scores | duration: 0.070727576 | operationType: query
+[graphql] operation-responsetime | operation: Timeline | duration: 0.079411661 | operationType: query
+[graphql] operation-responsetime | operation: CaseOverview | duration: 0.114138533 | operationType: query

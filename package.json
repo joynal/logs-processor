@@ -2,14 +2,15 @@
   "name": "logs-processor",
   "author": "Joynal Abedin",
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
-    "eslint": "^6.7.2",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.19.1"
+    "@babel/eslint-parser": "^7.18.2",
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
   },
   "dependencies": {
-    "split": "^1.0.1",
-    "sqlite3": "^4.1.1",
-    "through2": "^3.0.1"
+    "split2": "^4.1.0",
+    "sqlite3": "^5.0.8"
   }
 }

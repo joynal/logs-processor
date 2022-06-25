@@ -1,4 +1,4 @@
-const sqlite3 = require('sqlite3').verbose();
+import sqlite3 from 'sqlite3';
 
 const insertQuery = `INSERT INTO GraphqlDurations (
     created,
@@ -23,30 +23,43 @@ const initTable = (database) => {
 };
 
 const createRecords = (database, operationName, operation) => {
-  database.run(
-    insertQuery,
-    [new Date(), operationName, operation.operationType, operation.averageDuration, 'AVG'],
-  );
-  database.run(
-    insertQuery,
-    [new Date(), operationName, operation.operationType, operation.minDuration, 'MIN'],
-  );
-  database.run(
-    insertQuery,
-    [new Date(), operationName, operation.operationType, operation.maxDuration, 'MAX'],
-  );
+  database.run(insertQuery, [
+    new Date(),
+    operationName,
+    operation.operationType,
+    operation.averageDuration,
+    'AVG',
+  ]);
+  database.run(insertQuery, [
+    new Date(),
+    operationName,
+    operation.operationType,
+    operation.minDuration,
+    'MIN',
+  ]);
+  database.run(insertQuery, [
+    new Date(),
+    operationName,
+    operation.operationType,
+    operation.maxDuration,
+    'MAX',
+  ]);
 };
 
 const saveData = (operations) => {
-  const database = new sqlite3.Database('./db.sqlite');
+  try {
+    const database = new sqlite3.Database('./db.sqlite');
 
-  // every time clear the table
-  initTable(database);
+    // every time clear the table
+    initTable(database);
 
-  // iterate and save each record
-  Object.keys(operations).forEach((key) => {
-    createRecords(database, key, operations[key]);
-  });
+    // iterate and save each record
+    Object.keys(operations).forEach((key) => {
+      createRecords(database, key, operations[key]);
+    });
+  } catch (error) {
+    console.error(error);
+  }
 };
 
-module.exports = saveData;
+export default saveData;

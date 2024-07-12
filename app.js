@@ -9,52 +9,31 @@ const logToObject = (logLine) => logLine.split(' | ').reduce((parsed, pairWord) 
   return parsed;
 }, {});
 
-const calculateStats = (tags, parsed, init = {}) => tags.reduce((processed, tagName) => {
-  const tagValue = parsed[tagName];
-  if (tagValue && parsed.duration) {
-    const duration = parseFloat(parsed.duration);
-    const operationType = parsed.operationType.toLowerCase();
+const calculateStats = (tags, parsed, init = {}) => {
+  if (!parsed.duration) return init;
+  const duration = parseFloat(parsed.duration);
+  const operationType = parsed.operationType.toLowerCase();
 
-    if (processed[tagName] && processed[tagName][tagValue]) {
-      const record = processed[tagName][tagValue];
-      const count = record.count + 1;
-      const totalDuration = record.totalDuration + duration;
-      const averageDuration = totalDuration / count;
-      return {
-        ...processed,
-        [tagName]: {
-          ...processed[tagName],
-          [tagValue]: {
-            ...processed[tagName][tagValue],
-            count,
-            operationType,
-            totalDuration,
-            averageDuration,
-            maxDuration: Math.max(record.maxDuration, duration),
-            minDuration: Math.min(record.minDuration, duration),
-          },
-        },
-      };
-    }
+  return tags.reduce((processed, tagName) => {
+    const tagValue = parsed[tagName];
+    if (!tagValue) return processed;
+
+    const record = processed[tagName]?.[tagValue] || { count: 0, totalDuration: 0 };
+    const count = record.count + 1;
+    const totalDuration = record.totalDuration + duration;
+    const averageDuration = totalDuration / count;
 
     return {
       ...processed,
       [tagName]: {
         ...processed[tagName],
         [tagValue]: {
-          count: 1,
-          operationType,
-          totalDuration: duration,
-          averageDuration: duration,
-          maxDuration: duration,
-          minDuration: duration,
+          count, totalDuration, averageDuration, operationType,
         },
       },
     };
-  }
-
-  return processed;
-}, init);
+  }, init);
+};
 
 class StatsAggregator extends Transform {
   constructor() {

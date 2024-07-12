@@ -1,7 +1,7 @@
 module.exports = {
   parser: '@babel/eslint-parser',
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2023,
     requireConfigFile: false,
   },
   rules: {
@@ -12,6 +12,7 @@ module.exports = {
     'no-multi-str': 0,
     'no-continue': 0,
     'no-return-await': 0,
+    'import/extensions': 0,
   },
   env: {
     node: true,

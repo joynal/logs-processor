@@ -1,6 +1,5 @@
-import split from 'split2';
-
 import { Transform } from 'stream';
+import readline from 'readline';
 
 import saveData from './db.js';
 
@@ -11,12 +10,13 @@ const logToObject = (logLine) => logLine.split(' | ').reduce((parsed, pairWord) 
 }, {});
 
 const calculateStats = (tags, parsed, init = {}) => tags.reduce((processed, tagName) => {
-  if (parsed[tagName] && parsed.duration) {
+  const tagValue = parsed[tagName];
+  if (tagValue && parsed.duration) {
     const duration = parseFloat(parsed.duration);
     const operationType = parsed.operationType.toLowerCase();
 
-    if (processed[tagName] && processed[tagName][parsed[tagName]]) {
-      const record = processed[tagName][parsed[tagName]];
+    if (processed[tagName] && processed[tagName][tagValue]) {
+      const record = processed[tagName][tagValue];
       const count = record.count + 1;
       const totalDuration = record.totalDuration + duration;
       const averageDuration = totalDuration / count;
@@ -24,14 +24,14 @@ const calculateStats = (tags, parsed, init = {}) => tags.reduce((processed, tagN
         ...processed,
         [tagName]: {
           ...processed[tagName],
-          [parsed[tagName]]: {
-            ...processed[tagName][parsed[tagName]],
+          [tagValue]: {
+            ...processed[tagName][tagValue],
             count,
             operationType,
             totalDuration,
             averageDuration,
-            ...(duration > record.maxDuration && { maxDuration: duration }),
-            ...(duration < record.minDuration && { minDuration: duration }),
+            maxDuration: Math.max(record.maxDuration, duration),
+            minDuration: Math.min(record.minDuration, duration),
           },
         },
       };
@@ -41,7 +41,7 @@ const calculateStats = (tags, parsed, init = {}) => tags.reduce((processed, tagN
       ...processed,
       [tagName]: {
         ...processed[tagName],
-        [parsed[tagName]]: {
+        [tagValue]: {
           count: 1,
           operationType,
           totalDuration: duration,
@@ -93,4 +93,18 @@ class StatsAggregator extends Transform {
   }
 }
 
-process.stdin.pipe(split()).pipe(new StatsAggregator());
+const statsAggregator = new StatsAggregator();
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+  terminal: false,
+});
+
+rl.on('line', (line) => {
+  statsAggregator.write(line);
+});
+
+rl.on('close', () => {
+  statsAggregator.end();
+});
